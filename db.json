@@ -1,0 +1,64 @@
+{
+  "athletes": [
+    {
+      "name": "Chiruk",
+      "age": 23,
+      "team": "Tennis",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ram",
+      "age": 21,
+      "team": "Badminton"
+    },
+    {
+      "id": 3,
+      "name": "Sita",
+      "age": 26,
+      "team": "Badminton"
+    },
+    {
+      "id": 4,
+      "name": "Venky",
+      "age": 25,
+      "team": "Tennis"
+    },
+    {
+      "id": 5,
+      "name": "Nag",
+      "age": 28,
+      "team": "Badminton"
+    },
+    {
+      "id": 6,
+      "name": "Pavan",
+      "age": 21,
+      "team": "Tennis"
+    },
+    {
+      "id": 8,
+      "name": "Poo",
+      "age": 27,
+      "team": "Tennis"
+    },
+    {
+      "id": 9,
+      "name": "sam",
+      "age": 22,
+      "team": "Badminton"
+    },
+    {
+      "id": 10,
+      "name": "rishi",
+      "age": 20,
+      "team": "Badminton"
+    },
+    {
+      "name": "sai",
+      "age": "24",
+      "team": "Tennis",
+      "id": 11
+    }
+  ]
+}
