@@ -5,6 +5,7 @@ import { TeamComponent } from './component/team/team.component';
 import { MovementComponent } from './component/movement/movement.component';
 import { LoginComponent } from './component/login/login.component';
 import { MainComponent } from './component/main/main.component';
+import { InputDataComponent } from './component/input-data/input-data.component';
 
 const routes: Routes = [
   {path:'athlete', component: AthleteComponent},
@@ -12,7 +13,9 @@ const routes: Routes = [
   {path: 'movement', component: MovementComponent},
   // {path: 'signup', component: MainComponent},
   {path: 'login', component: LoginComponent},
-  {path: '**', redirectTo:'/login'}
+  {path: 'input', component: InputDataComponent},
+  {path: '**', redirectTo:'/login'},
+  
 ];
 
 @NgModule({

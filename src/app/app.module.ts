@@ -19,6 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AgGridModule } from 'ag-grid-angular';
+import { InputDataComponent } from './component/input-data/input-data.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     AthleteComponent,
     TeamComponent,
-    MovementComponent
+    MovementComponent,
+    InputDataComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AgGridModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

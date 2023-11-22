@@ -1,0 +1,15 @@
+<div class="card">
+<form [formGroup]="performance" (ngSubmit)="onSubmit()">
+    <label for="date">Date: </label>
+    <input id="date" type="date" placeholder="Enter date" formControlName="date">
+    <label for="name">Athlete Name: </label>
+    <input id="name" type="text" placeholder="Enter Athlete Name" formControlName="name">
+    <label for="movements">Movement: </label>
+    <select id="movements"  name="selectedOption">
+        <option *ngFor="let opt of movements" [value]="opt">{{opt}}</option>
+    </select>
+    <label for="assessment">Assessment: </label>
+    <input id="assessment" type="number" placeholder="Enter the assessment value">
+    <button class="btn btn-primary" type="submit">Save</button>
+</form>
+</div>

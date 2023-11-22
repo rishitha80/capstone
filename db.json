@@ -1,7 +1,7 @@
 {
   "athletes": [
     {
-      "name": "Chiruk",
+      "name": "Chiru",
       "age": 23,
       "team": "Tennis",
       "id": 1
@@ -31,10 +31,10 @@
       "team": "Badminton"
     },
     {
-      "id": 6,
-      "name": "Pavan",
+      "name": "Pallavi",
       "age": 21,
-      "team": "Tennis"
+      "team": "Tennis",
+      "id": 6
     },
     {
       "id": 8,
@@ -49,16 +49,32 @@
       "team": "Badminton"
     },
     {
-      "id": 10,
-      "name": "rishi",
-      "age": 20,
-      "team": "Badminton"
+      "name": "manjusha",
+      "age": 28,
+      "team": "Badminton",
+      "id": 12
     },
     {
-      "name": "sai",
-      "age": "24",
-      "team": "Tennis",
-      "id": 11
+      "name": "cupcake",
+      "age": 23,
+      "team": "tennis",
+      "id": 13
+    }
+  ],
+  "movements":[
+    {
+      "mov_name": "m1",
+      "type": "speed"
+    },
+    {
+      "mov_name": "m2",
+      "type": "weight"
+    },
+    {
+      "mov_name": "m3",
+      "type": "power"
     }
   ]
+
+
 }

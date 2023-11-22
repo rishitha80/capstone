@@ -58,4 +58,5 @@ export class AthleteComponent {
     })
     this.id = athlete.id      
   }
+
 }
