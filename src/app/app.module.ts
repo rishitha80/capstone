@@ -21,6 +21,10 @@ import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { AgGridModule } from 'ag-grid-angular';
 import { InputDataComponent } from './component/input-data/input-data.component';
+import { TeamService } from './service/team.service';
+import { MovementService } from './service/movement.service';
+import { IndAthleteComponent } from './component/ind-athlete/ind-athlete.component';
+import { PerformanceService } from './service/performance.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +34,8 @@ import { InputDataComponent } from './component/input-data/input-data.component'
     AthleteComponent,
     TeamComponent,
     MovementComponent,
-    InputDataComponent
+    InputDataComponent,
+    IndAthleteComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,7 @@ import { InputDataComponent } from './component/input-data/input-data.component'
     HttpClientModule,
     AgGridModule
   ],
-  providers: [DataService],
+  providers: [DataService, TeamService, MovementService, PerformanceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

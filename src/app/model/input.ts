@@ -1,6 +1,13 @@
+import { Team } from "./team";
+
 export interface Input {
     date: string,
-    name: string,
     movement: string,
-    assessment: number
+    team_name : string,
+    athletes: [
+        {
+            athlete_name: string,
+            assessment: number
+        }
+    ]
 }

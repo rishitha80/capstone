@@ -19,4 +19,12 @@ export class MovementService {
     return this.http.get<Movement[]>(this.serviceUrl)
      
    }
+
+   updateMovement(movement: any, id: number): Observable<Movement>{
+    return this.http.put<Movement>(this.serviceUrl+"/"+id,movement)
+   }
+
+   deleteMovement(movement: any){
+    return this.http.delete<Movement>(this.serviceUrl+'/'+movement.id)
+   }
 }

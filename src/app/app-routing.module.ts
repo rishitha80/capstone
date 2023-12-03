@@ -6,6 +6,7 @@ import { MovementComponent } from './component/movement/movement.component';
 import { LoginComponent } from './component/login/login.component';
 import { MainComponent } from './component/main/main.component';
 import { InputDataComponent } from './component/input-data/input-data.component';
+import { IndAthleteComponent } from './component/ind-athlete/ind-athlete.component';
 
 const routes: Routes = [
   {path:'athlete', component: AthleteComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   // {path: 'signup', component: MainComponent},
   {path: 'login', component: LoginComponent},
   {path: 'input', component: InputDataComponent},
+  {path: 'athlete/:id' , component: IndAthleteComponent},
   {path: '**', redirectTo:'/login'},
   
 ];

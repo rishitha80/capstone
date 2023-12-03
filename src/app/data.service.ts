@@ -29,8 +29,8 @@ export class DataService {
     return this.http.get<Athlete[]>(this.serviceUrl)
   }
 
-  getAthleteById(athlete: any): Observable<Athlete>{
-    return this.http.get<Athlete>(this.serviceUrl+'/'+athlete.id)
+  getAthleteById(id:number): Observable<Athlete>{
+    return this.http.get<Athlete>(this.serviceUrl+'/'+id)
   }
 
   editAthlete(athlete: any, id:number): Observable<Athlete>{
